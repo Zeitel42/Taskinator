@@ -251,7 +251,7 @@ var loadTasks = function(){
   for(var i = 0; i < tasks.length; i++){
    console.log(tasks[i]);
     tasks[i].id = taskIdCounter;
-
+  
     var listItemEl = document.createElement("li");
       listItemEl.className = "task-item";
       listItemEl.setAttribute("data-task-id", tasks[i].id);
@@ -283,7 +283,7 @@ var loadTasks = function(){
     taskIdCounter++
 
     console.log(listItemEl);
-  }
+}
   return
 };
 
